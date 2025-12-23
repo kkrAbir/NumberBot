@@ -7,8 +7,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackQueryHandler, ContextTypes
 
 # --- কনফিগারেশন ---
-ADMIN_ID = 123456789  # আপনার টেলিগ্রাম আইডি এখানে দিন
-TOKEN = "YOUR_BOT_TOKEN_HERE" # আপনার বট টোকেন দিন
+ADMIN_ID = 6388412065  # আপনার টেলিগ্রাম আইডি এখানে দিন
+TOKEN = "8417045385:AAGO3QSwZtSGksCqy1Nq5vOEb_nzn7hmPxM" # আপনার বট টোকেন দিন
 DB_FILE = 'database.json'
 NUMBERS_FILE = 'Number.txt'
 
