@@ -43,7 +43,7 @@ async def is_subscribed(bot, user_id):
 def get_main_menu():
     keyboard = [
         [InlineKeyboardButton("🌍 Available Country", callback_data='list_countries')],
-        [InlineKeyboardButton("📊 My Info", callback_data='my_info'), InlineKeyboardButton("👥 Oip (Group)", url=GROUP_LINK)]
+        [InlineKeyboardButton("📊 My Info", callback_data='my_info'), InlineKeyboardButton("🔐 OTP (Group)", url=GROUP_LINK)]
     ]
     return InlineKeyboardMarkup(keyboard)
 
